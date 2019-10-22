@@ -1,1 +1,12 @@
-Khumalo
+Sithembisos-MBP:kurk sithembiso$ uju changes
+You are on soft state 'sithembiso' created from 'master'
+The following files have uncommitted changes:
+
+ total 1
+ new  deacfb5b  -rw-r--r--  7B  Oct 22 13:40  sithembiso.txt
+====
+Local repo is up to date with the server replica on https://testing.lepsta.tech/star-trek/kurk.
+Sithembisos-MBP:kurk sithembiso$ uju commit -m "Awesome people here"
+Committed: 2b0d07ba37b61f102b534b5cecf3dca17b6bd5ff
+
+Sithembisos-MBP:kurk sithembiso$ 
