@@ -7,6 +7,8 @@ handleUpdateStream = () => {
     path,
     slug
   }
+
+  // #todo What is happening#
   StreamUpdateMutation(obj, (err, resp) => {
     let errorMsg = ''
     if (err) {
@@ -18,6 +20,7 @@ handleUpdateStream = () => {
       this.setState({
         loading: false
       })
+      // #question Can we have 2 annotations?#
       ShowNotification('success', 'Stream Update', resp.streamUpdate.message)
       this.props.handleStreamUpdated()
     } else {
